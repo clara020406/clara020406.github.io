@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+h1 {
+    color: #ff7eb3;
+}
+p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+}
+.imagenes {
+    justify-content: center;
+    margin-top: 15px;
+}
+.imagenes img {
+    width: 120px;
+
+}
