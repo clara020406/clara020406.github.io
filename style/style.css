@@ -6,7 +6,7 @@ nav ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
 a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
-ins{background-color: #ffff99;color:#000;text-decoration:none}
+ins{background-color: #FFFFFF;color:#000;text-decoration:none}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
@@ -18,7 +18,7 @@ body,html {
 	background-color: #EEEEEE;
 }
 header {
-    background: #afe1a0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
@@ -96,7 +96,7 @@ aside > div {
     vertical-align: middle;
     font-size: 30px;
     margin-right: 75px;
-    color: black;
+    color: #FFFFFF;
    font-family: Carlito;
 }
 #logo img {

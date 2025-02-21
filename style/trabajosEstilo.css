@@ -2,9 +2,6 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
-
-
-
 }
 
 h1 {
@@ -18,16 +15,19 @@ p {
     color: #FFFFFF;
     line-height: 1.6;
     max-width: 600px;
-    padding: 10px;
+
 }
 
-.imagenes {
+a {
+    color: black;
+    font-family: Caladea;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.gift {
+    display: flex;
     justify-content: center;
-    margin-top: 15px;
-    gap: 10px;
-}
-
-.imagenes img {
-    width: 120px;
-    border-radius: 10px;
+    align-items: center;
 }

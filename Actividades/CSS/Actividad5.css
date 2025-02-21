@@ -1,0 +1,19 @@
+*{
+    color:black;
+}
+#primerParrafo {
+    font-size: 1em;
+}
+#segundoParrafo {
+    font-size: 1.2em;
+}
+#tercerParrafo{
+    font-size: 0.8em ;
+}
+p#tercerParrafo{
+    color: red;
+}
+
+.textoRaton {
+    font-style:Italic;
+}
