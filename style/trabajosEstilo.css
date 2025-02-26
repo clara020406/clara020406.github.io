@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffff99;
+}
+
+p {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    line-height: 1.6;
+    max-width: 600px;
+
+}
+
+a {
+    color: black;
+    font-family: Caladea;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.gift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

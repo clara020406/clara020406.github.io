@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(135deg, #ff4e8a, #b347ff);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.parrafo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffdfdf;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
