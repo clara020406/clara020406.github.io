@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <title>Aficiones</title>
     <link rel="stylesheet" href="../style/Aficiones.css">
+    <script src="../script/Aficiones.js"></script>
 
 </head>
-<body>
+<body onload="inicializaReferencias()">
 <h1>Mis Aficiones</h1>
 <p>Tengo muchas aficiones, ya que me encanta aprender cosas nuevas y vivir experiencias diferentes. Disfruto viajar, conocer nuevas culturas y descubrir formas distintas de ver el mundo.</p>
 <p>También me gusta probar comidas de distintos lugares, experimentar con nuevos sabores y conocer la historia detrás de cada plato. Creo que cada experiencia, por pequeña que sea, me ayuda a crecer y a ver la vida de una manera más enriquecedora.</p>
+
+<h2>Sitios que he visitado </h2>
+<div class="controles">
+    <button id="tema-claro">Tema Claro</button>
+    <button id="tema-oscuro">Tema Oscuro</button>
+    <button id="reset-estilos">Restablecer</button>
+</div>
+
+<div id="galeria">
+    <div class="imagen-contenedor">
+        <img src="../Imagen/newyork.png" alt="New York">
+        <p>New York</p>
+    </div>
+    <div class="imagen-contenedor">
+        <img src="../Imagen/florencia.png" alt="Florencia">
+        <p>Florencia</p>
+    </div>
+    <div class="imagen-contenedor">
+        <img src="../Imagen/francia.png" alt="Francia">
+        <p>Francia</p>
+    </div>
+    <div class="imagen-contenedor">
+        <img src="../Imagen/napoles.png" alt="Napoles">
+        <p>Napoles</p>
+    </div>
+</div>
+
+
+
+
 </body>
 </html>

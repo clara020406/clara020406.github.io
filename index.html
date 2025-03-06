@@ -1,40 +1,70 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es" class="no-js">
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/webstorm-icon-logo.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WS playground</title>
-  <link rel="stylesheet" href="/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://html5-templates.com/" />
+	<title>Portfolio Profesional</title>
+	<meta name="description" content="Portfolio personal con información sobre mi currículum, aficiones, trabajos y más.">
+
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="../script/script.js" defer></script>
 </head>
+
 <body>
-<header class="logo">
-  <a href="https://www.jetbrains.com/webstorm/">
-    <img src="/webstorm-logo.svg" alt="WebStorm logo" width="344"
-         height="90">
-  </a>
+
+<header>
+	<div id="logo">
+		<img src="../Imagen/images__1_-removebg-preview.png" >
+		<h1>Mi Portfolio</h1>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="..\Contenido\Cv.html">Currículum </a></li>
+			<li><a href="..\Contenido\sobreMi.html">Sobre mí</a></li>
+			<li><a href="..\Contenido\Aficiones.html">Aficiones</a></li>
+			<li><a href="..\Contenido\Trabajos.html">Trabajos</a></li>
+		</ul>
+	</nav>
 </header>
-<main id="app">
-  <h1 class="title">
-    Thank you for trying it out. <br /> Your first project is up and running
-    now.
-  </h1>
-  <section class="counter">
-    <div class="counter-info">
-      <p class="counter-text">Counter is</p>
-      <p class="counter-value" id="counter-value"></p>
-    </div>
-    <div class="counter-interaction">
-      <button id="increaseByOne" type="button">+1</button>
-      <button id="increaseByTwo" type="button">+2</button>
-      <button id="decreaseByOne" type="button">-1</button>
-      <button id="decreaseByTwo" type="button">-2</button>
-    </div>
-  </section>
-</main>
-<footer class="technologies">
-  <img src="/technologies.svg" alt="List of supported technologies">
-</footer>
-<script type="module" src="/src/main.js"></script>
+
+<section>
+	<p><strong>Bienvenidos a mi portfolio profesional. Este sitio ha sido diseñado utilizando HTML, CSS y JavaScript para mostrar mi trayectoria, aficiones y más.</strong></p>
+</section>
+
+<section id="pageContent">
+	<main role="main">
+		<article>
+			<h2>Currículum </h2>
+			<p>En este apartado podrás encontrar un resumen detallado de mi trayectoria profesional hasta el momento.</p>
+		</article>
+
+		<article>
+			<h2>Sobre mí</h2>
+			<p>Aquí podrás conocer más sobre mi formación, intereses y valores personales.</p>
+		</article>
+
+		<article>
+			<h2>Aficiones</h2>
+			<p>En esta sección comparto mis pasatiempos y actividades favoritas. </p>
+		</article>
+
+		<article>
+			<h2>Trabajos</h2>
+			<p>Aquí se documenta mi experiencia laboral y los proyectos en los que he trabajado a lo largo del curso.</p>
+		</article>
+	</main>
+
+	<aside>
+		<section>
+			<h3>Contacto</h3>
+			<p><strong>Telefono:</strong> 567 432 195</p>
+			<p><strong>Email:</strong> <a href="mailto:c.lafuente.ojeda@iescristobaldemonroy.es">c.lafuente.ojeda@iescristobaldemonroy.es</a></p>
+		</section>
+	</aside>
+</section>
+
 </body>
 </html>
