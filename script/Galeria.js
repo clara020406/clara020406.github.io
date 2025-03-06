@@ -1,4 +1,3 @@
-
 var galeria;
 var btnTemaClaro;
 var btnTemaOscuro;

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    height: 100vh;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Estilo botón resaltado que se aplicará con JavaScript */
+.botonActivo {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Contenedor de los botones */
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.imagen-contenedor {
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.imagen-contenedor img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.imagen-contenedor p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Efecto hover en imágenes */
+img:hover {
+    width: 275px;
+    height: 275px;
+    transition: 0.3s ease;
+}
+
+/* Tema Claro */
+.tema-claro {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Tema Oscuro */
+.tema-oscuro {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
